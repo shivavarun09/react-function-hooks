@@ -1,0 +1,10 @@
+.maindiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  height: 90vh;
+}
+.btn{
+  margin: 0.5rem;
+}

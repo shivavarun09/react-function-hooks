@@ -1,0 +1,14 @@
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aliceblue;
+  position: sticky;
+  z-index: 88;
+  top: 0;
+  height: 10vh;
+  padding: 0 1rem;
+}
+.navbar_links{
+  text-decoration: none;
+}

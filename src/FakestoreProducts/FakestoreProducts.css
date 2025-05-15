@@ -1,0 +1,28 @@
+.FakeStore {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btnsdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  padding: 1rem;
+  position: sticky;
+  top: 8vh;
+}
+
+.cardsDiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  background-color: aqua;
+  width: 90%;
+  gap: 10px;
+}
+
+.product-card {
+  margin: 5px;
+}
